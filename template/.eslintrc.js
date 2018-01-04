@@ -3,14 +3,26 @@ module.exports = {
   parser: 'babel-eslint',
   env: {
     browser: true,
-    node: true
+    node: true,
   },
-  extends: 'standard',
+  extends: 'airbnb-base',
   // required to lint *.vue files
   plugins: [
-    'html'
+    'html',
   ],
   // add your custom rules here
-  rules: {},
-  globals: {}
-}
+  rules: {
+    // don't require .vue extension when importing
+    'import/extensions': ['error', 'always', {
+      js: 'never',
+      vue: 'never'
+    }],
+  },
+  globals: {},
+  settings: {
+    'import/resolver': {
+      webpack: 'webpack.config.js',
+    },
+  },
+};
+
