@@ -1,18 +1,18 @@
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/904724/22470179/b84f58d8-e7ce-11e6-995b-0933711ca566.png"></p>
 
 
-# Nuxt.js with Express
+# Nuxt.js with Express & Vue Material & Airbnb linting
 
 > [ExpressJS](http://expressjs.com/) + [Nuxt.js](https://nuxtjs.org) = :zap:
 
 ## Installation
 
-This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). Also, provides linting with `eslint-airbnb.base`.
+This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). Also, provides `Vue Material` and linting with `eslint-airbnb.base`.
 
-Credit goes to [this original repo](https://github.com/dfee/nuxt-starter-template-airbnb).
+Credit goes to [this original airbnb template repo](https://github.com/dfee/nuxt-starter-template-airbnb) and [vuematerial nuxt.js repo](https://github.com/vuematerial/nuxtjs).
 
 ```bash
-vue init williamchong007/nuxt-express-template-airbnb <project-name>
+vue init williamchong007/nuxt-express-template-airbnb-vuematerial <project-name>
 cd <project-name> # move to your project
 npm install # or yarn install
 ```
