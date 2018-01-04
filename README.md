@@ -7,10 +7,12 @@
 
 ## Installation
 
-This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
+This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). Also, provides linting with `eslint-airbnb.base`.
+
+Credit goes to [this original repo](https://github.com/dfee/nuxt-starter-template-airbnb).
 
 ```bash
-vue init nuxt-community/express-template <project-name>
+vue init williamchong007/nuxt-express-template-airbnb <project-name>
 cd <project-name> # move to your project
 npm install # or yarn install
 ```
